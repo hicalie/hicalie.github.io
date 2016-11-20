@@ -1,44 +1,120 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- HEAD SECTION -->
+<head>
     <meta charset="utf-8">
-    <title>HTML</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-  </head>
-  <body>
-  	<header>
-  		<img src="images/shopify.jpg">
-  		<img src="images/netflix.jpg">
-  		<img src="images/ladyhacks.jpg">
-  	</header>
-  	<main>
-    <h1>Learning how to use HTML</h1>
-    <p>
-    	You can write anything in here, any paragraph things.
-    	For instance, you can write the steps of how to HTML.
-    </p>
-    <h2>Step 1</h2>
-    <p>
-    	Remember all the key words
-    	p is for paragraph, head is for ...
-    	if need a secnd paragraph, add another tag.
-    	
-    	<p>
-    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    	</p>
-    	
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>hi Calie</title>
+    <!--GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!--BOOTSTRAP MAIN STYLES -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!--FONTAWESOME MAIN STYLE -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!--CUSTOM STYLE -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+    <!--END HEAD SECTION -->
+<body>
+     <!-- NAV SECTION -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">CALIE</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#header-section">Log in</a></li>
+                    <li><a href="#about-section">Get started</a></li>
+                </ul>
+            </div>
 
-    </p>
+        </div>
+    </div>
+     <!--END NAV SECTION -->
+     <!-- HEADER SECTION -->
+    <div id="header-section" >
+          <div class="container">
+
+            <div class="row main-top-margin">
+                <div class="col-md-6 col-md-offset-3">
+
+                    <div class="text-center">
+
+                        <img src="img/unicorn.png" alt="Calie">
+                            <br />
+
+                    </div>
+                </div>
+            </div>
+                  <div class="row main-low-margin">
+                <div class="col-md-12">
+
+                    <div class="text-center">
+                        <h2 class="head-line" >Hi, I'm Calie!</h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+      <!--END HEADER SECTION -->
+
+     <!-- ABOUT SECTION -->
+      <div id="about-section" class="section" >
+        <div class="container" >
 
 
-    </main>
-    <footer>
-    	copyright 2016
-    </footer>
-  </body>
+            <div class="row main-low-margin">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1" >
+                    <h1>Your personal, intelligent scheduling assistant</h1>
+                    <h5>
+                       At the palm of your hands, Calie will keep track of your scheduling habits and ensure you commit to your to-do lists.
+                       <br/><b>Features:</b>
+                       <ul><li>Calie chats with you regularly to understand your priorities (which you might not even know!) through <a href="https://azure.microsoft.com/en-us/services/machine-learning/ ">Microsoft's Azure Machine Learning </a>integration.
+                       </li><li>Overwhelming to-do list, where over 50% never gets done? Not to worry, Calie's got you covered! She will propose schedules that best fit your priorities.
+                       </li><li>What more can she do? With a collaboration with companies such as Groupon and Eventbrite, she will suggest resources to commit to your checklist!
+                       </li></ul>
+                    </h5>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!--END FOOTER SECTION -->
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY LIBRARY -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- CORE BOOTSTRAP LIBRARY -->
+    <script src="assets/js/bootstrap.min.js"></script>
+     <!-- PARALLAX SCRIPTS-->
+     <script src="assets/js/scrolly-master/jquery.scrolly.js"></script>
+       <!-- CUSTOM SCRIPT-->
+    <script src="assets/js/custom.js"></script>
+
+</body>
 </html>
